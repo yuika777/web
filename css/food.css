@@ -1,0 +1,33 @@
+#banner{
+    width: 940px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}#banner img{
+    width: 940px;
+}
+.city_h1{
+    text-align: left;margin-top: 10px;
+    margin-bottom: 10px;
+}
+.city ul li{
+   height: 240px;
+   margin-bottom: 20px;
+   border-bottom: 1px dotted #94683f;
+   padding-bottom: 20px;
+
+}
+.city img{
+    height: 240px;
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+}
+#food_title { 
+}
+#food_title h3{ 
+    font-size: 24px;
+    margin: 20px 0px;
+}
+#food_title p{ 
+   line-height: 30px;
+}

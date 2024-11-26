@@ -1,0 +1,61 @@
+#banner {
+    width: 940px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+#banner img {
+    width: 940px;
+}
+
+.scenery_h1 {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+.scenery_list {
+    text-align: center;
+    font-size: 0px;
+}
+
+.scenery_list li {
+    width: 286px;
+    display: inline-block;
+    margin: 0px 20px;
+    background-color: #E2E9E4;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 323px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.scenery_list li:nth-child(3n-2) {
+    margin-left: 0px;
+}
+
+.scenery_list li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.scenery_list li p:nth-child(2) {
+    font-size: 16px;
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.scenery_list li p:nth-child(3) {
+    font-size: 14px;
+    text-align: left;
+    color: #333;
+    margin-top: 10px;
+}
+
+.scenery_list li img {
+    width: 100%;
+    height: 170px;
+}

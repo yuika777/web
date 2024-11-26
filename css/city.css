@@ -1,0 +1,18 @@
+#banner{
+    width: 940px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}#banner img{
+    width: 940px;
+}
+.city_h1{
+    text-align: left;margin-top: 10px;
+    margin-bottom: 10px;
+}
+.city{
+    text-indent: 2rem;
+    line-height: 30px;
+}
+.city p{
+   margin-top: 10px;
+}

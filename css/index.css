@@ -1,0 +1,159 @@
+#lunbotu {
+    width: 940px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+#banner {
+    position: absolute;
+    width: 940px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#banner:hover .arrow a {
+    display: block;
+}
+
+.img-list {
+    width: 400%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: 0.5s ease;
+}
+
+.img-list li {
+    width: 100%;
+}
+
+.img-list img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.arrow {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    justify-content: space-between;
+}
+
+.arrow a {
+    display: none;
+    width: 40px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    user-select: none;
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+.circle-list {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 8;
+}
+
+.circle-list>.circle {
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #b9c6ca;
+    border-radius: 50%;
+}
+
+.circle-list>.circle.active {
+    background-color: #4287ac;
+}
+
+.city {
+    line-height: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #94683f;
+}
+
+.city_h1 {
+    margin: 30px 0px;
+}
+
+.city p {
+    text-indent: 32px;
+    line-height: 36px;
+}
+
+#hz_scene {
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #94683f;
+
+}
+
+#hz_scene ul {
+    height: 300px;
+    height: 305px;
+}
+
+#hz_scene ul li {
+    float: left;
+    width: 220px;
+    height: 305px;
+    background-color: #e5f4ea;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#hz_scene ul li:first-child {
+    margin-left: 0px;
+}
+
+#hz_scene ul li img {
+    width: 100%;
+    height: 110px;
+}
+
+#hz_scene ul li p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.more {
+    line-height: 305px;
+    text-align: center;
+}
+
+.more a {
+    text-decoration: none;
+    color: #94683f;
+}
+
+.more a:hover {
+    text-decoration: underline;
+}
+#hz_food ul{
+    height: 230px;
+}
+#hz_food ul li{
+    float: left;
+    margin-left: 30px;
+}
+#hz_food ul li img{ 
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+#hz_food ul li p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
